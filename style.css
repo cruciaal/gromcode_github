@@ -1,6 +1,32 @@
 * {
   box-sizing: border-box;
 }
+/* body {
+  display: flex;
+} */
+.text {
+  margin: 16px;
+  border-bottom: 1px dotted black;
+  display: inline-block;
+  position: relative;
+}
+.tooltip {
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  bottom: -40px;
+}
+.text:hover .tooltip {
+  visibility: visible;
+}
+
+/* * {
+  box-sizing: border-box;
+}
 .dropdown {
   display: inline-block;
   position: relative;
@@ -32,14 +58,13 @@
 .dropdown:hover .menu-list {
   display: block;
   /* background-color: ghostwhite; */
-}
 
-.menu-item {
+/* .menu-item {
   padding: 16px;
 }
 .menu-list:hover .menu-item {
   background-color: ghostwhite;
-}
+} */
 
 /* .container:first-child {
   /* display: none; */

@@ -1,20 +1,27 @@
-.container div:nth-child(1) {
-  display: none;
-  width: 100px;
-  height: 100px;
-  background-color: coral;
+* {
+  box-sizing: border-box;
 }
-.container div:nth-child(2) {
-  visibility: hidden;
-  width: 100px;
+.articles > div {
+  width: 150px;
   height: 100px;
-  background-color: coral;
+  background-color: beige;
+  margin: 16px;
 }
-.container div:nth-child(3) {
-  visibility: visible;
-  width: 100px;
-  height: 100px;
-  background-color: coral;
+.articles {
+  display: flex;
+}
+.visible-text {
+}
+.cropped {
+  overflow: hidden;
+}
+.both-scrolls {
+  overflow: scroll;
+  cursor: all-scroll;
+}
+.vertical-scroll {
+  cursor: all-scroll;
+  overflow-y: scroll;
 }
 
 /* .container:first-child {

@@ -30,14 +30,18 @@
 }
 .dropdown:hover .menu-list {
   display: block;
+  /* background-color: ghostwhite; */
 }
 
 .menu-item {
   padding: 16px;
 }
-.menu-item:hover {
+.menu-list:hover .menu-item {
   background-color: ghostwhite;
 }
+
+/* .menu-item:hover {
+} */
 
 /* .container:first-child {
   /* display: none; */

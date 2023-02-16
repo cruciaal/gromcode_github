@@ -1,24 +1,45 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.container div:nth-child(1) {
+  display: none;
 }
-.articles-list {
-  display: flex;
-  flex-wrap: wrap;
+.container div:nth-child(2) {
+  visibility: hidden;
 }
-article {
+.container div:nth-child(3) {
+  visibility: visible;
 }
-.article {
-  /* display: block; */
-  flex: 1 0 300px;
-  margin: 8px;
-  padding: 16px;
-  background-color: bisque;
+
+/* .container:first-child {
+  /* display: none; */
+/* }
+.container:nth-child(2) {
+  visibility: hidden;
 }
-h1 {
-  text-align: center;
+.container:last-child {
+  visibility: visible;
+  visibility: visible;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+} */
+/* div:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* display: none; */
+/* }*/
+
+/* div:nth-child(2) {
+  visibility: hidden;
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }
+div:nth-child(3) {
+  visibility: visible;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}  */
 
 /* .header {
   height: 40px;

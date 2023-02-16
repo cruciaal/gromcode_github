@@ -1,27 +1,16 @@
-/* * {
-  box-sizing: border-box;
-} */
 /* body {
-  display: flex;
+  overflow: hidden;
 } */
-.text {
-  margin: 16px;
-  border-bottom: 1px dotted black;
-  display: inline-block;
-  position: relative;
+.gallery {
+  display: flex;
+  cursor: all-scroll;
+  overflow-x: hidden;
 }
-.tooltip {
-  visibility: hidden;
-  display: block;
-  position: absolute;
-  background-color: grey;
-  color: white;
-  padding: 8px;
-  border-radius: 4px;
-  bottom: -40px;
+.gallery:hover {
+  overflow-x: scroll;
 }
-.text:hover .tooltip {
-  visibility: visible;
+.thumb {
+  margin: 8px;
 }
 
 /* * {

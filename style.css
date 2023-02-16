@@ -1,3 +1,23 @@
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+article {
+}
+
+.article {
+  flex-basis: 300px;
+  flex-grow: 1;
+  display: block;
+  /* flex: 1 1 300px; */
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+}
+h1 {
+  text-align: center;
+}
+
 *,
 *::before,
 *::after {
@@ -47,7 +67,7 @@ button {
 .wrapper > main {
   flex-grow: 1;
 }
-.header {
+/* .header {
   height: 40px;
   background-color: yellow;
   display: flex;
@@ -82,7 +102,7 @@ h2 {
   background-color: grey;
 }
 .list {
-  /* list-style-type: none; */
+
   line-height: 40px;
   margin-left: 16px;
 }
@@ -94,7 +114,7 @@ h2 {
 }
 .name {
   margin: auto;
-}
+} */
 
 /* li {
   list-style: none;

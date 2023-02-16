@@ -4,12 +4,9 @@
 }
 article {
 }
-
 .article {
-  flex-basis: 300px;
-  flex-grow: 1;
-  display: block;
-  /* flex: 1 1 300px; */
+  /* display: block; */
+  flex: 1 0 300px;
   margin: 8px;
   padding: 16px;
   background-color: bisque;

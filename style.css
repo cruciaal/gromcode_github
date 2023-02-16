@@ -1,27 +1,42 @@
 * {
   box-sizing: border-box;
 }
-.articles > div {
-  width: 150px;
-  height: 100px;
-  background-color: beige;
+.dropdown {
+  display: inline-block;
+  position: relative;
   margin: 16px;
 }
-.articles {
-  display: flex;
+.menu-button {
+  padding: 16px;
+  display: inline-block;
+  background-color: darkgreen;
+  opacity: 0.8;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
 }
-.visible-text {
+.menu-button:hover {
+  opacity: 1;
 }
-.cropped {
-  overflow: hidden;
+.menu-list {
+  margin: 0;
+  padding: 0;
+  display: none;
+  list-style-type: none;
+  color: black;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  min-width: 120px;
+  z-index: 1;
 }
-.both-scrolls {
-  overflow: scroll;
-  cursor: all-scroll;
+.dropdown:hover .menu-list {
+  display: block;
 }
-.vertical-scroll {
-  cursor: all-scroll;
-  overflow-y: scroll;
+
+.menu-item {
+  padding: 16px;
+}
+.menu-item:hover {
+  background-color: ghostwhite;
 }
 
 /* .container:first-child {

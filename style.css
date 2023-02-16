@@ -2,19 +2,19 @@
   display: none;
   width: 100px;
   height: 100px;
-  background-color: orange;
+  background-color: coral;
 }
 .container div:nth-child(2) {
   visibility: hidden;
   width: 100px;
   height: 100px;
-  background-color: orange;
+  background-color: coral;
 }
 .container div:nth-child(3) {
   visibility: visible;
   width: 100px;
   height: 100px;
-  background-color: orange;
+  background-color: coral;
 }
 
 /* .container:first-child {

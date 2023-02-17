@@ -1,29 +1,22 @@
+.container {
+}
+.list {
+  font-size: 1.5em;
+  list-style-type: none;
+}
+.first {
+  text-decoration: red overline;
+}
+.second {
+  text-decoration: line-through;
+}
+.third {
+  text-decoration: green underline;
+}
+
 /* * {
   box-sizing: border-box;
 } */
-body {
-  font-family: Verdana;
-}
-header {
-  /* font-size: 74px; */
-}
-h1 {
-  font-size: 74px;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 50vw;
-  margin: auto;
-}
-div {
-  color: white;
-  height: 200px;
-  background-color: coral;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 200px;
-}
 /* body {
   overflow: hidden;
 } */

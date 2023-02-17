@@ -13,6 +13,9 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
+.image:last-child {
+  background: 50% 0 / auto 100% no-repeat;
+}
 
 /* .header-text {
   margin: 0;

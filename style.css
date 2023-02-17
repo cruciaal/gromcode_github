@@ -1,3 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400, 900;
+  font-size: 18px;
+}
+section {
+  margin: 32px;
+}
+h1 {
+  word-spacing: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  line-height: 28px;
+}
+.technologies {
+  letter-spacing: 3px;
+  font-size: 24px;
+  font-weight: 900;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+}
+em {
+  color: grey;
+}
+
 /* body {
   overflow: hidden;
 } */
@@ -14,10 +47,7 @@
   margin: 8px;
 } */
 
-* {
-  box-sizing: border-box;
-}
-.dropdown {
+/* .dropdown {
   display: inline-block;
   position: relative;
   margin: 16px;
@@ -45,18 +75,15 @@
   min-width: 120px;
   z-index: 1;
   background-color: lightcyan;
-}
-.dropdown:hover .menu-list {
-  display: block;
-  /* background-color: ghostwhite; */
-}
+} */
 
+/* 
 .menu-item {
   padding: 16px;
 }
 .menu-list:hover .menu-item {
   background-color: ghostwhite;
-}
+} */
 
 /* .container:first-child {
   /* display: none; */

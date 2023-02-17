@@ -1,14 +1,13 @@
-body {
-  font-size: 18px;
+.rectangle {
+  background-color: blueviolet;
 }
-.properties-list {
-  list-style-type: none;
-  color: #f39;
+.text::first-letter {
+  color: green;
   font-size: 24px;
-  line-height: 32px;
 }
-.properties-list__item {
-  padding: 8px;
+.text {
+}
+.new {
 }
 
 /* * {

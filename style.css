@@ -1,4 +1,8 @@
-* {
+body {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg);
+}
+
+/* * {
   box-sizing: border-box;
 }
 .gallery {
@@ -15,7 +19,7 @@
 }
 .image:last-child {
   background: 50% 0 / auto 100% no-repeat;
-}
+} */
 
 /* .header-text {
   margin: 0;

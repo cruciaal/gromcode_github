@@ -12,14 +12,19 @@
 }
 
 .image-container {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
+  margin: 50px 0;
 }
-.image-container img {
+.main-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+/* .image-container{
   border-radius: 20px;
   max-width: 100%;
-}
+} */
 .gallery {
   display: flex;
 }

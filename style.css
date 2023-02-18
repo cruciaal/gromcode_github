@@ -1,8 +1,10 @@
-.main-video {
-  display: block;
+iframe {
   width: 500px;
+  height: 400px;
+  display: block;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /* * {

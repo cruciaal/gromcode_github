@@ -25,10 +25,11 @@ body {
   text-align: center;
 }
 .form-control {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
 }
 .form-label {
+  display: inline-block;
   margin-bottom: 4px;
 }
 .form-input {
@@ -40,7 +41,7 @@ body {
   margin-bottom: 8px;
 }
 .submit-button {
-  display: block;
+  display: inline-block;
   background-color: #ff7f50;
   height: 32px;
   margin-top: 16px;

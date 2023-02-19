@@ -15,14 +15,16 @@
 <body>
 	<form>
 		<div class="form-control">
-			<input type="text" name="lastName" value="Emerson">
+			<label for="lastName">Last Name</label>
+			<input type="text" name="lastName" value="Emerson" readonly>
 		</div>
 		<div class="form-control">
-			<input type="number" name="age" value="17">
+			<label for="age">Age</label>
+			<input type="number" name="age" min="3" max="10" value="17">
 		</div>
 		<div class="form-control">
-			<input type="checkbox" name="agree">
-			<label for="agree">Accept terms and conditions</label>
+			<input type="checkbox" name="agree" disabled>
+			<label for="checkbox">Accept terms and conditions</label>
 		</div>
 		<div class="choose-gender">
 			<input type="radio" checked name="gender">
@@ -33,7 +35,7 @@
 			<label for="gender">Secret</label>
 		</div>
 		<div class="form-control">
-			<textarea name="description" placeholder="Write description..."></textarea>
+			<textarea maxlength="10" name="description" placeholder="Write description..."></textarea>
 		</div>
 		<div class="form-control">
 			<button type="submit">Submit</button>

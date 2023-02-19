@@ -1,5 +1,5 @@
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 body {
   background-color: bisque;
@@ -40,7 +40,7 @@ body {
   margin-bottom: 8px;
 }
 .submit-button {
-  display: inline-block;
+  display: block;
   background-color: #ff7f50;
   height: 32px;
   margin-top: 16px;

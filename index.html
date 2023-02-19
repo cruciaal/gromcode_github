@@ -2,19 +2,37 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<title>Images</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-		integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+		integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
 </head>
 
 <body>
-	<div class="image-container">
-		<img class="image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/hw1/big.jpeg"
-			alt="Forest" />
-		<span class="image-button">Later I'll do something</span>
+	<div class="form-control">
+		<input type="text" name="lastName" value="Emerson">
 	</div>
+	<div class="form-control">
+		<input type="number" name="age" value="17">
+	</div>
+	<div class="form-control">
+		<input type="checkbox" name="agree"><label for="">Accept terms conditions</label>
+	</div>
+	<div class="chose-gender">
+		<input type="radio" name="gender"><label for="">Mail</label>
+		<input type="radio" name="gender"><label for="">Female</label>
+		<input type="radio" name="gender"><label for="">Secret</label>
+	</div>
+	<div class="form-control">
+		<textarea name="description" placeholder="Write description...">
+	</div>
+	<div class="form-control">
+	<button type="submit">Submit</button>
+		</div>
 </body>
 
 </html>

@@ -31,6 +31,7 @@ body > main {
 .form-control {
   display: inline-flex;
   flex-direction: column;
+  margin-bottom: 8px;
 }
 .form-label {
   display: inline-block;
@@ -41,7 +42,6 @@ body > main {
   border: 1px solid #080808;
   padding: 4px;
   border-radius: 4px;
-  margin-bottom: 8px;
 }
 .submit-button {
   display: inline-block;
@@ -55,9 +55,10 @@ body > main {
 input:invalid {
   border: 3px solid #ff0000;
 }
-input:valid[type='text'] {
-  border: 3px solid #ff0000;
-}
+/* input:invalid[type='text']{
+	  border: 3px solid #ff0000;
+
+} */
 
 /* input:valid {border-color: green;} */
 

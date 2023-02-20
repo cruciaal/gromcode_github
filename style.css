@@ -42,7 +42,6 @@ body > main {
   padding: 4px;
   border-radius: 4px;
   margin-bottom: 8px;
-  outline: none;
 }
 .submit-button {
   display: inline-block;

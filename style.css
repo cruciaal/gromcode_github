@@ -1,6 +1,72 @@
 * {
   box-sizing: border-box;
 }
+.big-form {
+  margin: 32px;
+}
+div {
+  margin: 8px;
+}
+
+/* input {
+  margin: 8px;
+} */
+.page {
+}
+.big-form {
+}
+.input-languge {
+}
+.html {
+}
+.checkbox-agree {
+}
+.agree {
+}
+.checkbox-like {
+}
+.like {
+}
+.color-input {
+}
+.date-input {
+}
+.datetime-local-input {
+}
+.email-input {
+}
+.file-input {
+}
+.month-input {
+}
+.number-input {
+}
+.textarea {
+}
+.password-input {
+}
+.languages {
+}
+.range-input {
+}
+.select-input {
+}
+.input-search {
+}
+.time-input {
+}
+.url-input {
+}
+.week-input {
+}
+.submit-input {
+}
+.submit-button {
+}
+
+/* * {
+  box-sizing: border-box;
+}
 body {
   background-color: bisque;
   font-size: 16px;
@@ -51,7 +117,7 @@ body {
 }
 input:invalid {
   border: 3px solid #ff0000;
-}
+} */
 /* input:valid {border-color: green;} */
 
 /* .checkbox {

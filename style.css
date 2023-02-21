@@ -25,9 +25,9 @@ td:last-child {
   border-top-style: hidden;
 }
 
-tr:nth-child(4) {
+tr:nth-child(4) td:first-child,
+td:last-child {
   border-top-style: hidden;
-  border-bottom-style: hidden;
 }
 tr:nth-child(6) td:first-child,
 td:last-child {

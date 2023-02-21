@@ -2,6 +2,90 @@
   box-sizing: border-box;
 }
 table {
+  border: 1px solid black;
+  margin: 16px;
+}
+td {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+table,
+td,
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:nth-child(1) td:first-child {
+  border-bottom-style: hidden;
+}
+
+tr:nth-child(3) {
+  border-top-style: hidden;
+}
+
+tr:nth-child(4) {
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+}
+tr:nth-child(6) td:first-child,
+td:last-child {
+  border-top-style: hidden;
+}
+tr:nth-child(7) td:first-child {
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+}
+
+tr:nth-child(9) td:first-child,
+td:last-child {
+  border-top-style: hidden;
+}
+tr:nth-child(10) td:first-child,
+td:last-child {
+  border-top-style: hidden;
+}
+tr:first-child td:not(:last-child) {
+  /* border-left-style: hidden; */
+  border-right-style: hidden;
+}
+tr:last-child td:not(:last-child) {
+  border-right-style: hidden;
+}
+tr:first-child td:last-child {
+  border-top-style: solid;
+}
+
+tr:not(:first-child):nth-child(odd) td:not(:last-child):nth-child(even)
+/* tr:not(:first-child):nth-child(even) td:nth-child(odd) */ {
+  background-color: black;
+}
+tr:not(:first-child, :last-child):nth-child(even)
+  td:not(:first-child, :last-child):nth-child(odd) {
+  background-color: black;
+}
+
+/* tr:not(:first-child):nth-child(even) td:nth-child(odd),
+tr:not(:first-child):nth-child(odd) td:nth-child(even) {
+  background-color: black;
+} */
+/* tr:first-child {
+  background-color: white;
+} */
+/* td:first-child,
+td:last-child {
+  background-color: transparent;
+} */
+/* tr:first-child td:not(:first-child):not(:last-child),
+tr:last-child td:not(:first-child):not(:last-child) {
+  background-color: transparent;
+} */
+/* tr:first-child tr:last-child {
+  background-color: white;
+} */
+
+/*
+table {
   width: 500px;
   margin: 16px;
 }
@@ -35,9 +119,9 @@ tfoot {
 caption {
   margin-bottom: 8px;
 }
-.wrapper-table {
-  overflow-x: auto;
-}
+.wrapper-table{
+	overflow-x: auto;
+} */
 
 /* * {
   box-sizing: border-box;

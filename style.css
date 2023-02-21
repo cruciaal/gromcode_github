@@ -1,7 +1,26 @@
 * {
   box-sizing: border-box;
 }
-body {
+table {
+  width: 500px;
+  margin: 16px;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 4px;
+  text-align: right;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+/* body {
   background-color: bisque;
   font-size: 16px;
   font-family: monospace;
@@ -54,7 +73,7 @@ body > main {
 }
 input:invalid {
   border: 3px solid #ff0000;
-}
+} */
 /* input:invalid[type='text']{
 	  border: 3px solid #ff0000;
 

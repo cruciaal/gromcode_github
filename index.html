@@ -2,33 +2,56 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<title>Forms</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-		integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+		integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
 </head>
 
 <body>
-	<main class="page">
-		<form class="login-form">
-			<h1 class="form-title">Login</h1>
-			<div class="form-control">
-				<label class="form-label" for="email">Email</label>
-				<input class="form-input" type="email" id="email" name="email" placeholder="mail@example.com"
-					required />
-			</div>
-			<div class="form-control">
-				<label class="form-label" for="userName">Full Name</label>
-				<input class="form-input" type="text" id="userName" name="userName" />
-			</div>
-			<div class="form-control">
-				<label class="form-label" for="password">Password</label>
-				<input class="form-input" type="password" id="password" name="password" required />
-			</div>
-			<button class="submit-button" type="submit">Submit</button>
-		</form>
-	</main>
+	<div class="wrapper-table">
+		<table>
+			<caption>Shopping list</caption>
+			<thead>
+				<tr>
+					<th>Product</th>
+					<th>Amount</th>
+					<th>Price</th>
+					<th>Subtotal</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Milk</td>
+					<td>3</td>
+					<td>$2</td>
+					<td>$6</td>
+				</tr>
+				<tr>
+					<td>Bread</td>
+					<td>4</td>
+					<td>$1</td>
+					<td>$4</td>
+				</tr>
+				<tr>
+					<td>Meat</td>
+					<td>5</td>
+					<td>$10</td>
+					<td>$50</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3">Total</td>
+					<td>$60</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
 </body>
 
 </html>

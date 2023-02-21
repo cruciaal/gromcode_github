@@ -1,4 +1,22 @@
-* {
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.small-bird {
+  width: 64px;
+  height: 64px;
+}
+.large-bird {
+  width: 320px;
+  height: 320px;
+}
+
+/* * {
   box-sizing: border-box;
 }
 table {
@@ -48,7 +66,6 @@ td:last-child {
   border-top-style: hidden;
 }
 tr:first-child td:not(:last-child) {
-  /* border-left-style: hidden; */
   border-right-style: hidden;
 }
 tr:last-child td:not(:last-child) {
@@ -59,13 +76,13 @@ tr:first-child td:last-child {
 }
 
 tr:not(:first-child):nth-child(odd) td:not(:last-child):nth-child(even)
-/* tr:not(:first-child):nth-child(even) td:nth-child(odd) */ {
+{
   background-color: black;
 }
 tr:not(:first-child, :last-child):nth-child(even)
   td:not(:first-child, :last-child):nth-child(odd) {
   background-color: black;
-}
+} */
 
 /* tr:not(:first-child):nth-child(even) td:nth-child(odd),
 tr:not(:first-child):nth-child(odd) td:nth-child(even) {

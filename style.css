@@ -16,6 +16,28 @@ th {
   padding: 4px;
   text-align: right;
 }
+tr {
+  height: 40px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+tbody tr:hover {
+  background-color: #aaa;
+  color: white;
+}
+thead {
+  background-color: aqua;
+}
+tfoot {
+  font-weight: 700;
+}
+caption {
+  margin-bottom: 8px;
+}
+.wrapper-table {
+  overflow-x: auto;
+}
 
 /* * {
   box-sizing: border-box;

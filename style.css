@@ -20,7 +20,8 @@ tr:nth-child(1) td:first-child {
   border-bottom-style: hidden;
 }
 
-tr:nth-child(3) {
+tr:nth-child(3) td:first-child,
+td:last-child {
   border-top-style: hidden;
 }
 

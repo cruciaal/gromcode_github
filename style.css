@@ -19,7 +19,7 @@
 .custom-button:hover {
   color: darkcyan;
 }
-/* .custom-button-awesome {
+.custom-button-awesome {
   display: block;
   margin: 64px;
   width: 200px;
@@ -32,7 +32,7 @@
   font-weight: 700;
   border: none;
   cursor: pointer;
-} */
+}
 /* .custom-button:hover > .fa-solid {
   color: white;
 }

@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .custom-button {
-  display: block;
+  /* display: block; */
   margin: 64px;
   width: 200px;
   height: 50px;
@@ -14,6 +14,7 @@
   font-weight: 700;
   border: none;
   cursor: pointer;
+  line-height: 50px;
 }
 .custom-button:hover {
   color: darkcyan;
@@ -40,6 +41,7 @@ span {
   color: white;
 } */
 .bird-icon {
+  margin: auto;
   width: 32px;
   height: 32px;
   vertical-align: middle;

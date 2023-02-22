@@ -41,7 +41,7 @@ span {
   color: white;
 } */
 .bird-icon {
-  margin: auto;
+  /* margin: auto; */
   width: 32px;
   height: 32px;
   vertical-align: middle;
@@ -50,6 +50,7 @@ span {
 .bird-icon:hover {
   fill: green;
 }
+
 /* * {
   box-sizing: border-box;
 }

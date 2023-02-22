@@ -32,13 +32,13 @@
   border: none;
   cursor: pointer;
 } */
-.custom-button:hover > .fa-solid {
+/* .custom-button:hover > .fa-solid {
   color: white;
 }
 .custom-button:hover > .fa-id-card,
 span {
   color: white;
-}
+} */
 .bird-icon {
   width: 32px;
   height: 32px;

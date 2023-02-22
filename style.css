@@ -1,8 +1,7 @@
 * {
   box-sizing: border-box;
 }
-.custom-button {
-  /* display: block; */
+button {
   margin: 64px;
   width: 200px;
   height: 50px;
@@ -19,8 +18,16 @@
 .custom-button:hover {
   color: darkcyan;
 }
-.custom-button-awesome {
-  /* display: block; */
+.bird-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  fill: white;
+}
+.bird-icon:hover {
+  fill: green;
+}
+/* .custom-button {
   margin: 64px;
   width: 200px;
   height: 50px;
@@ -32,7 +39,22 @@
   font-weight: 700;
   border: none;
   cursor: pointer;
-}
+  line-height: 50px;
+} */
+
+/* .custom-button-awesome {
+  margin: 64px;
+  width: 200px;
+  height: 50px;
+  background-color: coral;
+  color: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+} */
 /* .fa-id-card,
 .fa-solid {
   vertical-align: middle;
@@ -45,16 +67,6 @@
 span {
   color: white;
 } */
-.bird-icon {
-  /* margin: auto; */
-  width: 32px;
-  height: 32px;
-  vertical-align: middle;
-  fill: white;
-}
-.bird-icon:hover {
-  fill: green;
-}
 
 /* * {
   box-sizing: border-box;

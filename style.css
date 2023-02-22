@@ -33,6 +33,11 @@
   border: none;
   cursor: pointer;
 }
+.fa-id-card,
+.fa-solid {
+  vertical-align: middle;
+}
+
 /* .custom-button:hover > .fa-solid {
   color: white;
 }

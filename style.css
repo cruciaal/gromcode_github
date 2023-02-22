@@ -15,6 +15,9 @@
   border: none;
   cursor: pointer;
 }
+.custom-button:hover {
+  color: darkcyan;
+}
 
 .bird-icon {
   width: 32px;

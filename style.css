@@ -1,7 +1,27 @@
 * {
   box-sizing: border-box;
 }
-button {
+.battery-icons {
+  display: flex;
+  justify-content: space-around;
+}
+.fa-battery-full {
+  font-size: 16px;
+}
+.fa-battery-three-quarters {
+  font-size: 32px;
+}
+.fa-battery-half {
+  font-size: 64px;
+}
+.fa-battery-quarter {
+  font-size: 128px;
+}
+.fa-battery-empty {
+  font-size: 256px;
+}
+
+/* button {
   margin: 64px;
   width: 200px;
   height: 50px;
@@ -26,7 +46,7 @@ button {
 }
 .bird-icon:hover {
   fill: green;
-}
+} */
 /* .custom-button {
   margin: 64px;
   width: 200px;

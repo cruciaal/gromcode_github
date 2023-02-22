@@ -1,21 +1,26 @@
-.row {
-  display: flex;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1;
-}
-.small-bird {
-  width: 64px;
-  height: 64px;
-}
-.large-bird {
-  width: 320px;
-  height: 320px;
+.custom-button {
+  margin: 64px;
+  width: 200px;
+  height: 50px;
+  background-color: coral;
+  color: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
 }
 
+.bird-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  fill: white;
+}
+.bird-icon:hover {
+  fill: green;
+}
 /* * {
   box-sizing: border-box;
 }

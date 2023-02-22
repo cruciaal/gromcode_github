@@ -8,7 +8,10 @@
   transform: translate(200px, 100px) rotate(45deg) scale(1.5);
   /* transform: rotate(45deg); */
 }
-
+/* p {
+  display: inline-block;
+  background-color: bisque;
+} */
 /* .wrapper {
   display: flex;
   min-height: 100vh;

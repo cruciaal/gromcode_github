@@ -1,7 +1,22 @@
 * {
   box-sizing: border-box;
 }
-body {
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  transform: translate(200px, 100px) rotate(45deg) scale(1.5);
+  /* transform: rotate(45deg); */
+}
+p {
+  margin: 0 32px;
+  padding: 8px;
+  background-color: antiquewhite;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+/* body {
   display: flex;
   height: 100vh;
 }
@@ -46,12 +61,11 @@ body {
   }
   100% {
     transform: translateX(2000px);
-  }
+  } */
 
-  /* 100% {
+/* 100% {
     transform: translateY(0);
   } */
-}
 
 /* 
 .square {

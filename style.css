@@ -1,13 +1,145 @@
 * {
   box-sizing: border-box;
 }
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+body > .container {
+  flex-grow: 1;
+  /* flex-shrink: 1; */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.spinner-text {
+  display: inline-block;
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  animation: blinking 2s infinite linear;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 4px solid lightgrey;
+  border-top: 4px solid black;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  animation: moving-circle 2s infinite linear;
+}
+@keyframes moving-circle {
+  0% {
+    border-top: 4px solid black;
+  }
+  25% {
+    border-top: 4px solid lightgrey;
+    border-right: 4px solid black;
+  }
+  50% {
+    border-right: 4px solid lightgrey;
+    border-bottom: 4px solid black;
+  }
+  100% {
+    border-bottom: 4px solid lightgrey;
+    border-left: 4px solid black;
+  }
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* .square {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  transform: translate(200px, 100px) rotate(45deg) scale(1.5);
+}
+p {
+  margin: 0 32px;
+  padding: 8px;
+  background-color: antiquewhite;
+  display: inline-block;
+  border-radius: 4px;
+} */
+
+/* body {
+  display: flex;
+  height: 100vh;
+}
+.fancy-button {
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(45deg, yellow, red);
+  border: none;
+  margin: auto;
+  animation: jump 0.5s 0.4s ease-in-out, spin 0.5s ease-in-out,
+    hide 0.1s 2s ease forwards;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(2000px);
+  } */
+
+/* 100% {
+    transform: translateY(0);
+  } */
+
+/* 
 .square {
   width: 100px;
   height: 100px;
   background-color: tomato;
   transform: translate(200px, 100px) rotate(45deg) scale(1.5);
-  /* transform: rotate(45deg); */
-}
+  transform: rotate(45deg);
+} */
 /* p {
   display: inline-block;
   background-color: bisque;

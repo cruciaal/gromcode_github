@@ -1,24 +1,29 @@
 * {
   box-sizing: border-box;
 }
-html {
-  font-size: 18px;
+.container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
-.font-in-px {
-  font-size: 27px;
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #8a2be2;
+  margin: 8px;
 }
-.font-in-em {
-  font-size: 1.5em;
+@media (max-width: 600px) {
+  .square {
+    background-color: #ff7f50;
+  }
 }
-.font-in-vw {
-  font-size: 5vw;
+@media screen and (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
 }
-.font-in-percents {
-  font-size: 150%;
-}
-.font-in-rem {
-  font-size: 1.5rem;
-}
+
 /* html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #555;

@@ -3,31 +3,33 @@
 }
 
 .breakpoints {
+  /* display: flex;
+  flex: 1 0 auto; */
 }
 
 .navigation {
   display: flex;
   min-height: 200px;
   background-color: #ff7f50;
-  flex: 1 0 auto;
+  flex: 1 1 50%;
 }
 .product-list {
   display: flex;
-  flex: 1 0 auto;
   min-height: 200px;
   background-color: #006400;
+  flex-grow: 1;
+  flex: 1 1 50%;
 }
 .news {
   display: flex;
   min-height: 200px;
   background-color: #0ff;
-  flex: 1 0 auto;
+  flex-grow: 1;
 }
 
 span {
   text-transform: lowercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* display: inline-block; */
   padding: 8px;
   background-color: #faebd7;
   border-radius: 4px;
@@ -36,12 +38,13 @@ span {
 @media screen and (min-width: 600px) {
   .products {
     display: flex;
-    flex: 2 0 auto;
+    flex: 0 1 auto;
   }
 }
 @media screen and (min-width: 900px) {
   .breakpoints {
-    display: flex;
+    /* display: flex; */
+    /* flex: 1 0 auto; */
   }
 }
 

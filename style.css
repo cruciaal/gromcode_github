@@ -21,7 +21,7 @@
   display: flex;
   min-height: 200px;
   background-color: #0ff;
-  flex: 0 1 33.3333%;
+  flex: 1 0 auto;
 }
 
 span {

@@ -32,15 +32,21 @@ html {
   padding: 0;
 }
 .nav-list-item {
+  display: flex;
   background-color: #808080;
   height: 2em;
   color: white;
   margin: 0.5em;
 }
 .nav-list-link {
+  /* display: flex;
+  flex: 0 1 auto; */
+  margin: 0.5em;
   text-decoration: none;
   color: white;
-  margin: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 /* .breakpoints {
   display: flex;

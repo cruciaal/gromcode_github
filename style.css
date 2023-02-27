@@ -39,15 +39,28 @@ html {
   margin: 0.5em;
 }
 .nav-list-link {
-  /* display: flex;
-  flex: 0 1 auto; */
-  margin: 0.5em;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: white;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin: 0.5em;
 }
+
+@media (min-width: 600px) {
+  .button {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .navigation {
+    display: none;
+  }
+}
+
 /* .breakpoints {
   display: flex;
 }

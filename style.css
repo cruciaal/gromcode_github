@@ -1,30 +1,26 @@
 * {
   box-sizing: border-box;
 }
-
 .breakpoints {
-  /* display: flex;
-  flex: 1 0 auto; */
+  display: flex;
 }
-
 .navigation {
   display: flex;
   min-height: 200px;
   background-color: #ff7f50;
-  flex: 1 1 50%;
+  flex: 1 0 33.333%;
 }
 .product-list {
   display: flex;
   min-height: 200px;
   background-color: #006400;
-  flex-grow: 1;
-  flex: 1 1 50%;
+  flex: 1 0 33.333%;
 }
 .news {
   display: flex;
   min-height: 200px;
   background-color: #0ff;
-  flex-grow: 1;
+  flex: 1 0 33.333%;
 }
 
 span {
@@ -35,19 +31,36 @@ span {
   border-radius: 4px;
   margin: auto;
 }
-@media screen and (min-width: 600px) {
-  .products {
-    display: flex;
-    flex: 0 1 auto;
-  }
-}
-@media screen and (min-width: 900px) {
-  .breakpoints {
-    /* display: flex; */
-    /* flex: 1 0 auto; */
-  }
-}
 
+@media (max-width: 900px) {
+  .breakpoints {
+    flex-wrap: wrap;
+  }
+  .navigation {
+    flex: 1 0 50%;
+  }
+  .product-list {
+    flex: 1 0 50%;
+  }
+}
+@media (max-width: 600px) {
+  .breakpoints {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  /* .navigation {
+    flex: 1 0 50%;
+  }
+  .product-list {
+    flex: 1 0 50%;
+  } */
+}
+/* @media screen and (min-width: 900px) {
+  .breakpoints {
+    display: flex;
+    flex-direction: row;
+  }
+} */
 /* html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #555;

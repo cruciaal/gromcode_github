@@ -33,9 +33,6 @@ html {
   padding: 0;
 }
 .nav-list-item {
-  /* padding-left: 0.5em;
-  padding-right: 0.5em; */
-
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -46,9 +43,11 @@ html {
   margin: 0.5em;
 }
 .nav-list-link {
+  /* display: inline-block; */
   text-decoration: none;
   color: white;
-  padding: 0.5em;
+  padding-left: 0.5em;
+  /* padding-right: 0.5em; */
 }
 
 @media (min-width: 600px) {

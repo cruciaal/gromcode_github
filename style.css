@@ -1,16 +1,47 @@
 * {
   box-sizing: border-box;
 }
-main {
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.header {
+  height: 3em;
+  padding: 0 1em;
+  background-color: #eee;
   display: flex;
 }
-img {
-  max-width: 100%;
+.button {
+  font-size: 2em;
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  /* align-self: center; */
 }
-picture {
-  margin: auto;
+.main {
+  display: flex;
 }
-
+.navigation {
+  width: 20%;
+  padding: 0.5em;
+}
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+.nav-list-item {
+  background-color: #808080;
+  height: 2em;
+  color: white;
+  margin: 0.5em;
+}
+.nav-list-link {
+  text-decoration: none;
+  color: white;
+  margin: 0.5em;
+}
 /* .breakpoints {
   display: flex;
 }

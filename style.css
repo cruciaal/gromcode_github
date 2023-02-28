@@ -40,7 +40,7 @@ html {
   background-color: #808080;
   line-height: 2em;
   color: white;
-  margin: 0.5em;
+  margin-bottom: 0.5em;
 }
 .nav-list-link {
   /* display: inline-block; */

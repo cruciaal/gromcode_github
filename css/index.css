@@ -36,7 +36,7 @@ body {
   }
 }
 
-@media (max-width: 600px) and (orientation: landscape) {
+@media (max-width: 600px) and (orientation: portrait) {
   .container {
     display: flex;
     flex-direction: column;

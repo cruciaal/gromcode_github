@@ -80,9 +80,9 @@ img {
 }
 
 @media (max-width: 1200px) {
-  img {
+  /* img {
     max-width: 100%;
-  }
+  } */
   .main {
     flex-wrap: wrap;
     flex: 1 0 auto;
@@ -91,7 +91,7 @@ img {
     flex: 0 0 20%;
   }
   .section {
-    flex: 0 0 60%;
+    flex: 1 0 60%;
   }
   .news {
     flex: 0 1 100%;

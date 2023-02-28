@@ -9,18 +9,24 @@ body {
   justify-content: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .square {
   width: 100px;
   height: 100px;
   margin: 8px;
   background-color: #ff7f50;
 }
-@media (min-width: 600px) {
+@media (min-width: 600px) and (orientation: landscape) {
   .square {
+    flex-direction: row;
     background-color: #8a2be2;
   }
 }
-@media (min-width: 899px) {
+@media (min-width: 899px) and (orientation: landscape) {
   .square {
     background-color: #a61;
   }

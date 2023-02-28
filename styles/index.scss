@@ -10,6 +10,8 @@ body {
   justify-content: center;
 }
 .container {
+  display: flex;
+  flex-direction: row;
 }
 .square {
   width: 100px;

@@ -33,9 +33,9 @@ html {
   padding: 0;
 }
 .nav-list-item {
-  /* overflow: hidden;
+  overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis; */
+  text-overflow: ellipsis;
   list-style-type: none;
   background-color: #808080;
   line-height: 2em;
@@ -46,12 +46,9 @@ html {
   /* display: inline-block; */
   text-decoration: none;
   color: white;
-  padding-left: 0.5em;
-  /* padding-right: 0.5em; */
-  display: block;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  /* padding-left: 0.5em;
+  padding-right: 0.5em; */
+  margin: 0.5em;
 }
 
 @media (min-width: 600px) {

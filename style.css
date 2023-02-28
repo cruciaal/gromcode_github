@@ -81,7 +81,7 @@ img {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   img {
     max-width: 100%;
   }
@@ -115,7 +115,6 @@ img {
     width: 100%;
   }
 }
-*/
 
 /* .breakpoints {
   display: flex;

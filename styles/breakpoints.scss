@@ -5,7 +5,7 @@ $xl: 1200px;
 
 @mixin for-medium-up {
   @media (min-width: $sm) and (orientation: landscape) {
-    flex-direction: row;
+    // flex-direction: row;
     @content;
   }
 }

@@ -29,3 +29,10 @@ body {
     background-color: #c47;
   }
 }
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}

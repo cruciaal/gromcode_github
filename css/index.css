@@ -22,7 +22,6 @@ body {
 }
 @media (min-width: 600px) and (orientation: landscape) {
   .square {
-    flex-direction: row;
     background-color: #8a2be2;
   }
 }
@@ -34,5 +33,12 @@ body {
 @media (min-width: 1199px) {
   .square {
     background-color: #c47;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
   }
 }

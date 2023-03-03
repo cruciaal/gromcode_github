@@ -24,7 +24,7 @@
   background-color: #9acd32;
 }
 .menu__item_active {
-  color: #9acd32;
+  color: yellow;
 }
 
 .submenu {

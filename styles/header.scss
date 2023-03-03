@@ -29,6 +29,9 @@
   }
   // .menu__item_active
 }
+.menu__item_active {
+  color: yellow;
+}
 .submenu {
   // position: absolute;
   display: none;
@@ -53,9 +56,6 @@
 
 .menu__item_active:hover .submenu {
   display: block;
-}
-.menu__item_active:hover {
-  color: #9acd32;
 }
 
 // $sm: 600px;

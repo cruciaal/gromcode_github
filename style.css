@@ -23,6 +23,10 @@
 .menu__item:hover {
   background-color: #9acd32;
 }
+.menu__item_active {
+  color: #9acd32;
+}
+
 .submenu {
   display: none;
   list-style: none;
@@ -42,10 +46,6 @@
 
 .menu__item_active:hover .submenu {
   display: block;
-}
-
-.menu__item_active:hover {
-  color: #9acd32;
 }
 
 * {

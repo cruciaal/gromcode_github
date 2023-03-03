@@ -43,3 +43,7 @@
 .menu__item_active:hover .submenu {
   display: block;
 }
+
+.menu__item_active:hover {
+  color: #9acd32;
+}

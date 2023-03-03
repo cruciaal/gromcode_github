@@ -44,6 +44,10 @@
   display: block;
 }
 
+.menu__item_active:hover {
+  color: #9acd32;
+}
+
 * {
   box-sizing: border-box;
 }
